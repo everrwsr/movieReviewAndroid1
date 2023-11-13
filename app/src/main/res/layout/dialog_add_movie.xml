@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加电影"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="标题" />
+
+    <EditText
+        android:id="@+id/editTextDirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="导演" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="年份" />
+    <EditText
+        android:id="@+id/editTextRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="评分" />
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonSubmit"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="提交"-->
+<!--        android:layout_gravity="center" />-->
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="个人中心界面"
+        android:textSize="24sp"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:id="@+id/userphone"
+        android:text="test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="24sp"
+        android:layout_gravity="center" />
+
+
+    <Button
+        android:id="@+id/buttonEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/color_minefragment_top"
+        android:text="修改个人资料" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/color_minefragment_top"
+        android:text="退出登录" />
+
+</LinearLayout>
